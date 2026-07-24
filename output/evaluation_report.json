@@ -1,0 +1,43 @@
+{
+  "ADDRESS": {
+    "TP": 8,
+    "FN": 6,
+    "recall": 0.5714285714285714,
+    "fp_candidates_for_manual_review": 16
+  },
+  "COMPANY": {
+    "TP": 16,
+    "FN": 3,
+    "recall": 0.8421052631578947,
+    "fp_candidates_for_manual_review": 160
+  },
+  "EMAIL": {
+    "TP": 21,
+    "FN": 0,
+    "recall": 1.0,
+    "fp_candidates_for_manual_review": 5
+  },
+  "NEGATIVE_NOT_PII": {
+    "TP": 0,
+    "FN": 40,
+    "recall": 0.0,
+    "fp_candidates_for_manual_review": 0
+  },
+  "PERSON": {
+    "TP": 24,
+    "FN": 16,
+    "recall": 0.6,
+    "fp_candidates_for_manual_review": 72
+  },
+  "PHONE": {
+    "TP": 10,
+    "FN": 7,
+    "recall": 0.5882352941176471,
+    "fp_candidates_for_manual_review": 0
+  },
+  "__OVERALL__": {
+    "TP": 79,
+    "FN": 72,
+    "recall": 0.5231788079470199
+  }
+}

@@ -1,0 +1,4994 @@
+[
+  {
+    "type": "COMPANY",
+    "original": "KSH INTERNATIONAL LIMITED CORPORATE",
+    "replacement": "Rodriguez, Figueroa and Sanchez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   International   Limited",
+    "replacement": "Doyle Ltd Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH International Private Limited",
+    "replacement": "Mcclain, Miller and Henderson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Bhandary Metal Extrusion Private Limited",
+    "replacement": "Davis and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Bhandary Metal Extrusion Private Limited",
+    "replacement": "Davis and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sarthak   Malvadkar",
+    "replacement": "Alyssa Gonzalez",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "cs.connect@kshinternational.com",
+    "replacement": "lrobinson@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "company   incorporated   on   July   30,   1979   under   the   Companies   Act,   1956   and   having its Registered Office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune  \u2013  410 501",
+    "replacement": "65423 Garcia Light\nWest Melanieview, AS 06196",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   International   Limited",
+    "replacement": "Doyle Ltd Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "CARE Analytics and Advisory Private Limited",
+    "replacement": "Miller-Carter Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholder.",
+    "replacement": "Stacey Ward",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park VI Private Limited",
+    "replacement": "Bush Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kanchenjunga   Family Trust",
+    "replacement": "Perez, Roberts and Miller Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Dhaulagiri Family",
+    "replacement": "Delacruz Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rakhi Girija Shetty",
+    "replacement": "Mark Diaz",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Kushal Hegde",
+    "replacement": "Daniel Adams",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Pushpa Kushal Hegde",
+    "replacement": "Nicholas Martin",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Subbayya Hegde",
+    "replacement": "William Bowman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholder",
+    "replacement": "Crystal Johnson",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder.",
+    "replacement": "Derek Clark",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder",
+    "replacement": "Sherri Edwards",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rakhi Girija Shetty",
+    "replacement": "Mark Diaz",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Kushal Hegde",
+    "replacement": "Daniel Adams",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Subbayya Hegde",
+    "replacement": "William Bowman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ganesh   Prasad",
+    "replacement": "Jennifer Rocha",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sarthak   Malvadkar",
+    "replacement": "Alyssa Gonzalez",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Joshi",
+    "replacement": "Derek Wright",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Amod",
+    "replacement": "Deborah Richards",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sandesh   Bhagwat",
+    "replacement": "Jennifer Robinson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder",
+    "replacement": "Sherri Edwards",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane   &   Pandit   LLP",
+    "replacement": "Hicks Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Pandit   LLP",
+    "replacement": "Callahan and Sons Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane   &",
+    "replacement": "Moore, Becker and Carlson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane   &   Pandit",
+    "replacement": "James-Ferrell Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders.",
+    "replacement": "Tricia Valencia",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane   &   Pandit",
+    "replacement": "James-Ferrell Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder.",
+    "replacement": "Derek Clark",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Care Analytics and Advisory Private Limited",
+    "replacement": "Miller-Carter Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Virginia Transformer Corporation",
+    "replacement": "Frazier Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Transformers &   Rectifiers (India) Limited",
+    "replacement": "Dyer, Potter and Mack Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nidec Industrial Automation India Private Limited",
+    "replacement": "Rodriguez-Graham Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Georgia Transformer Corporation",
+    "replacement": "Smith-Bowen Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Emirates   Transformer & Switchgear Limited",
+    "replacement": "Baker, Mason and White Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "CG Power and Industrial Solutions Limited",
+    "replacement": "Harrell LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Bharat Bijlee Limited",
+    "replacement": "Romero, Gonzalez and Brooks Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Al-Ahleia Switchgear Co.",
+    "replacement": "Ryan PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Vedanta Limited Sterlite",
+    "replacement": "George Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Rod LLC",
+    "replacement": "Rodriguez LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Union   Copper   ",
+    "replacement": "Allen-Allen Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Savli   Copper   Products   Private   Limited",
+    "replacement": "Arroyo, Miller and Tucker Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Hindalco   Industries   Limited",
+    "replacement": "Spence PLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Elantas   Beck India Limited",
+    "replacement": "Anderson Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the KSH International Chakan Internal Kamgar Sangathna",
+    "replacement": "Martin, Rose and Obrien Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Ministry of Commerce and Industry",
+    "replacement": "Hickman Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Unit   2   by   the   Pune Metropolitan Region Development Authority",
+    "replacement": "Harris, Collins and Carney Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH International Private Limited",
+    "replacement": "Mcclain, Miller and Henderson Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Maharashtra Sales Tax Department",
+    "replacement": "Brooks, Lam and Hayes Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Ministry of Corporate Affairs",
+    "replacement": "Walker LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH International Private Limited \u201d",
+    "replacement": "Chapman and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Bhandary Metal Extrusion Private Limited",
+    "replacement": "Davis and Sons Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Kushal Hegde",
+    "replacement": "Daniel Adams",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Hegde",
+    "replacement": "Adrienne Zimmerman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Co   LLP",
+    "replacement": "Perez Inc Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Jayaram N. Shetty",
+    "replacement": "Andrea Young",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Narayna B. Shetty",
+    "replacement": "Cindy Anderson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Subbayya Hegde",
+    "replacement": "William Bowman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Karunakar N. Bhandary",
+    "replacement": "Laura Kennedy",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Advisory   Private   Limited",
+    "replacement": "Aguirre-Lee Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rakhi Girija Shetty",
+    "replacement": "Mark Diaz",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Kushal Hegde",
+    "replacement": "Daniel Adams",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Subbayya Hegde",
+    "replacement": "William Bowman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Prasad",
+    "replacement": "Jeffrey Henderson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ganesh",
+    "replacement": "Nicholas Nunez",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sarthak Malvadkar",
+    "replacement": "Mrs. Jennifer Morgan",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Amod Joshi",
+    "replacement": "Danielle Lee",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sandesh Bhagwat",
+    "replacement": "Javier Ramirez",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the   Independent   ",
+    "replacement": "Baxter Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "RW   means   ",
+    "replacement": "Morton-Chase Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Maharashtra Pollution Control Board",
+    "replacement": "Williams PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Care Ratings Limited",
+    "replacement": "Novak and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "sufficient   operational   ",
+    "replacement": "Russell Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ajay   Shriram   Patil",
+    "replacement": "James Brown",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Dinesh   Hirachand   Munot",
+    "replacement": "William Baker",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Maharashtra State Government",
+    "replacement": "Mitchell-Horton Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Directorate General of Foreign Trade",
+    "replacement": "Cowan, Peters and Higgins Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Ministry of Commerce and Industry",
+    "replacement": "Hickman Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH Infra Park IV Private Limited",
+    "replacement": "Lee and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park IX A Private Limited",
+    "replacement": "Riley PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo   Industrial   Park IX B Private Limited",
+    "replacement": "Adkins Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo   Industrial   Park   IX   Private   Limited",
+    "replacement": "Silva PLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial   ",
+    "replacement": "Moore, Yu and Miller Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park VI Private Limited",
+    "replacement": "Bush Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park V Private Limited",
+    "replacement": "Jones Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park IV Private Limited",
+    "replacement": "Hensley, Powell and David Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park III Private Limited",
+    "replacement": "Sanchez, Wheeler and Harvey Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park II Private Limited",
+    "replacement": "Sandoval-Cunningham Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park I Private Limited",
+    "replacement": "Donovan-Harris Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal   Motors   and Electricals Private Limited",
+    "replacement": "Edwards, Baker and Anderson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Integrated   ",
+    "replacement": "Evans, Stewart and Walton Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Distriparks   ",
+    "replacement": "Smith PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Infra   Park   VI   ",
+    "replacement": "Ferrell, Jones and Lewis Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Private   Limited",
+    "replacement": "Anderson-Bailey Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Infra   Park   ",
+    "replacement": "Suarez LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH Project   ",
+    "replacement": "Moore-Bass Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Motors Private Limited",
+    "replacement": "Turner, Riggs and Roman Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "significant   equity   ",
+    "replacement": "Smith, Montoya and Evans Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Cloud Services Vendor \u2019",
+    "replacement": "Garcia, Humphrey and Baker Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "our Board",
+    "replacement": "Newton and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "finance   the   development   and   ",
+    "replacement": "Campbell-Clark Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Pushpa Hegde",
+    "replacement": "Michael Farrell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Subbayya Hegde",
+    "replacement": "William Bowman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders.   Our   Promoter",
+    "replacement": "Danielle Odonnell",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Stock Exchange",
+    "replacement": "Davis Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Company KSH International Limited",
+    "replacement": "Williams-Cook Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH International Limited",
+    "replacement": "Walsh LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "PCNTDA Green Building Block A 1 st  and 2 nd  floor Near   Akurdi   Railway   Station Akurdi, Pune  \u2013  411 044",
+    "replacement": "680 Charles Spurs Apt. 805\nSouth David, ME 48296",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Taluka   Khed,   District Pune  \u2013  410 501",
+    "replacement": "PSC 0533, Box 1586\nAPO AP 98736",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "Sarthak.malvadkar@kshinterantional.com",
+    "replacement": "sarayoung@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Allotted Equity Shares",
+    "replacement": "Keith Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nuvama   Wealth   Management   Limited",
+    "replacement": "Doyle LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh.ipo@nuvama.com",
+    "replacement": "vpham@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "customerservice.mb@nuvama.com",
+    "replacement": "erik16@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Venture House",
+    "replacement": "Walker-Velasquez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Securities",
+    "replacement": "Bailey-Hoover Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "customercare@icicisecurities.com",
+    "replacement": "jeffreykeller@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh@icicisecurities.com",
+    "replacement": "joshua14@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 22 6807 7100",
+    "replacement": "+91 1429401965",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nuvama   Wealth   Management   Limited",
+    "replacement": "Doyle LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Bandra   Kurla   Complex,   Bandra   East Mumbai 400 051",
+    "replacement": "9816 Jonathan Station Suite 088\nWest Ryan, TN 43780",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "sheetal.parab@nuvama.com",
+    "replacement": "elizabeth14@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "prakash.boricha@nuvama.com",
+    "replacement": "elizabeth56@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh.ipo@nuvama.com",
+    "replacement": "vpham@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Boricha",
+    "replacement": "Cameron Fisher",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Venture House",
+    "replacement": "Walker-Velasquez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Securities",
+    "replacement": "Bailey-Hoover Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh@icicisecurities.com",
+    "replacement": "joshua14@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 22 6807 7100",
+    "replacement": "+91 1429401965",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "customercare@icicisecurities.com",
+    "replacement": "jeffreykeller@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Senapati   Bapat   Marg,   Lower   Parel   (West) Mumbai  \u2013  400 013",
+    "replacement": "USNS Gilbert\nFPO AA 53726",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ipo@trilegal.com",
+    "replacement": "torresjason@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Formerly   Link   Intime   India   Private   Limited",
+    "replacement": "Pena, Marshall and Ramos Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "MUFG Intime India Private Limited",
+    "replacement": "Dixon Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 81081 14949",
+    "replacement": "+91 9513433200",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "1 st   Floor,   L   B   S   Marg,   Vikhroli   (West) Mumbai   400083",
+    "replacement": "176 Jennifer Lights Suite 632\nPort Michelleville, WI 56225",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "kshinternational.ipo@in.mpms.mufg.com",
+    "replacement": "gregoryrubio@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "kshinternational.ipo@in.mpms.mufg.com",
+    "replacement": "gregoryrubio@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shanti Gopalkrishnan",
+    "replacement": "Justin Lowery",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Bank  HDFC Bank Limited",
+    "replacement": "Bryant Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Lodha I Think Techno Campus",
+    "replacement": "Schmidt, Hansen and Stewart Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Bank   Limited",
+    "replacement": "Salazar-Ball Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "pravin.teli2@hdfcbank.com",
+    "replacement": "jrivas@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "tushar.gavankar@hdfcbank.com",
+    "replacement": "juliawells@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "eric.bacha@hdfcbank.com",
+    "replacement": "maryramirez@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "sachin.gawade@hdfcbank.com",
+    "replacement": "rsims@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "siddharth.jadhav@hdfcbank.com",
+    "replacement": "reevesjimmy@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Public   Offer   Account   Bank",
+    "replacement": "Orozco-Miller Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI   Bank   Limited",
+    "replacement": "Hall Ltd Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Varun Badai",
+    "replacement": "Daniel Perry",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "Ipocmg@icicibank.com",
+    "replacement": "amy60@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PHONE",
+    "original": "022-68052182",
+    "replacement": "+91 9670546688",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "163,   5th   Floor,   H.T.Parekh   Marg Backbay Reclamation Churchgate, Mumbai  \u2013  400020",
+    "replacement": "3467 Paul Skyway\nRamseymouth, PW 17229",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Bank   Limited",
+    "replacement": "Salazar-Ball Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Lodha I Think Techno Campus",
+    "replacement": "Schmidt, Hansen and Stewart Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Bank   Limited",
+    "replacement": "Salazar-Ball Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "pravin.teli2@hdfcbank.com",
+    "replacement": "jrivas@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "tushar.gavankar@hdfcbank.com",
+    "replacement": "juliawells@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "eric.bacha@hdfcbank.com",
+    "replacement": "maryramirez@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "sachin.gawade@hdfcbank.com",
+    "replacement": "rsims@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "siddharth.jadhav@hdfcbank.com",
+    "replacement": "reevesjimmy@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI   Bank   Limited",
+    "replacement": "Hall Ltd Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Varun Badai",
+    "replacement": "Daniel Perry",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "Ipocmg@icicibank.com",
+    "replacement": "amy60@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PHONE",
+    "original": "022-68052182",
+    "replacement": "+91 9670546688",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "163,   5th   Floor,   H.T.Parekh   Marg Backbay Reclamation Churchgate, Mumbai  \u2013  400020",
+    "replacement": "3467 Paul Skyway\nRamseymouth, PW 17229",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Bank   Limited",
+    "replacement": "Salazar-Ball Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Lodha I Think Techno Campus",
+    "replacement": "Schmidt, Hansen and Stewart Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Bank   Limited",
+    "replacement": "Salazar-Ball Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "pravin.teli2@hdfcbank.com",
+    "replacement": "jrivas@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "tushar.gavankar@hdfcbank.com",
+    "replacement": "juliawells@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "eric.bacha@hdfcbank.com",
+    "replacement": "maryramirez@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "sachin.gawade@hdfcbank.com",
+    "replacement": "rsims@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "siddharth.jadhav@hdfcbank.com",
+    "replacement": "reevesjimmy@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Pandit,   LLP",
+    "replacement": "Ferguson, Meadows and Vargas Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane   &   ",
+    "replacement": "Moore, Becker and Carlson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Lalit Muljibhai",
+    "replacement": "Angela Patterson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kanj   &   Co. LLP",
+    "replacement": "White-Green Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane   &   Pandit,   ",
+    "replacement": "Lewis-Murphy Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "parag.pansare@kirtanepandit.com",
+    "replacement": "aramirez@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ramani",
+    "replacement": "Julie Curry",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hitesh",
+    "replacement": "Trevor Walker",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "hitesh.ramani@citi.com",
+    "replacement": "harringtondenise@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Export-Import   Bank   of   India",
+    "replacement": "Gonzalez Inc Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Signature   Building,   Bhandarkar   road Shivaji Nagar, Pune  \u2013  411 004",
+    "replacement": "71937 Wang Expressway\nPort Loriport, CT 76350",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "pro@eximbankindia.in",
+    "replacement": "hickmanbarbara@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Chitra Raste",
+    "replacement": "Miguel Jones",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 20 2640 3100",
+    "replacement": "+91 1905865185",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "IndusInd Bank Limited",
+    "replacement": "Atkinson Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "sharmila.joshi@indusind.com",
+    "replacement": "hamiltonmichael@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sharmila Joshi",
+    "replacement": "Jessica Gross",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91-20-26234000",
+    "replacement": "+91 7694531473",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI   Bank   Limited",
+    "replacement": "Hall Ltd Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI   Bank",
+    "replacement": "Hudson-Barnett Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "cherag.gyara@icicibank.com",
+    "replacement": "anthony52@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Cherag Gyara",
+    "replacement": "Robert Peterson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+ 91 8879770456",
+    "replacement": "+91 3136783777",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Bank   Limited",
+    "replacement": "Salazar-Ball Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 20 6769 4648",
+    "replacement": "+91 6349578856",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "manisha.shukla@hdfcbank.com",
+    "replacement": "michael74@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "State   Bank   of   India",
+    "replacement": "Hall-Griffith Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Tushar   Wakhele",
+    "replacement": "Patrick Tapia",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 20 2561 8211",
+    "replacement": "+91 4989413435",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "rm6.ifbpune@sbi.co.in",
+    "replacement": "kevinerickson@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Sancheti Hospital",
+    "replacement": "Williams-Brown Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "The Federal Bank Limited",
+    "replacement": "Terry-Martinez Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Pulloor",
+    "replacement": "Katherine Salas",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Mathew",
+    "replacement": "Julie Alexander",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ashish",
+    "replacement": "Anthony Everett",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ashishmp@federalbank.co.in",
+    "replacement": "ewilson@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Bajaj   Finance   Limited",
+    "replacement": "Jones-Soto Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "anand.soni@bajajfinserv.in",
+    "replacement": "hernandezlisa@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Anand Soni",
+    "replacement": "David Grant",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+91 20 7157 6403",
+    "replacement": "+91 3867749649",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "CARE Ratings Limited",
+    "replacement": "Novak and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Financial Express",
+    "replacement": "Brown, Choi and Garcia Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Anchor Investors",
+    "replacement": "Garrett LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "our   Company   ",
+    "replacement": "Miller, Allen and Arnold Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Stock Exchange(s",
+    "replacement": "Smith Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "11/3, 11/4 and 11/5 Village Birdewadi Chakan   Taluka   -   Khed Pune  \u2013  410 501",
+    "replacement": "0344 Jones Fort Suite 936\nNew Jeffreyberg, PW 35317",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "201,   Tower   2,   Montreal Business Centre, Off Pallod Farms, Baner Pune  \u2013  411 045",
+    "replacement": "24994 Martinez Spurs\nHollyview, NY 71277",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sarthak Malvadkar",
+    "replacement": "Mrs. Jennifer Morgan",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PHONE",
+    "original": "+ 91 20 45053237",
+    "replacement": "+91 0659401399",
+    "confidence": 0.85,
+    "source": "regex",
+    "rule": "phone_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "cs.connect@kshinternational.com",
+    "replacement": "lrobinson@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "MAKALU FAMILY",
+    "replacement": "Key Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "EVEREST FAMILY",
+    "replacement": "Johnston-Hines Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "DHAULAGIRI FAMILY TRUST",
+    "replacement": "Ruiz Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "RAKHI GIRIJA SHETTY",
+    "replacement": "Mark Diaz",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "ROHIT KUSHAL HEGDE",
+    "replacement": "Daniel Adams",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "RAJESH KUSHAL HEGDE",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "PUSHPA KUSHAL HEGDE",
+    "replacement": "Nicholas Martin",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "KUSHAL SUBBAYYA HEGDE",
+    "replacement": "William Bowman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling  Shareholder",
+    "replacement": "Robert Costa",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling  Shareholder",
+    "replacement": "Robert Costa",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling  Shareholder",
+    "replacement": "Robert Costa",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit",
+    "replacement": "Matthew Morales DDS",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling  Shareholder",
+    "replacement": "Robert Costa",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kirtane & Pandit LLP",
+    "replacement": "Gibson LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the   Securities   and   ",
+    "replacement": "Morris-Cordova Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder",
+    "replacement": "Sherri Edwards",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Stock Exchange",
+    "replacement": "Davis Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "National Stock Exchange of India Limited",
+    "replacement": "Hancock-Bryan Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "BSE Limited",
+    "replacement": "Sandoval PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Wealth Management",
+    "replacement": "Gutierrez-Lopez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Lokesh Shah/",
+    "replacement": "Peter Garrett",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh.ipo@nuvama.com",
+    "replacement": "vpham@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Securities Limited",
+    "replacement": "Harris PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh@icicisecurities.com",
+    "replacement": "joshua14@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Formerly   Link   Intime   India   Private   Limited",
+    "replacement": "Pena, Marshall and Ramos Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "MUFG   Intime   India   Private   Limited",
+    "replacement": "Pennington Group Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Gopalkrishnan",
+    "replacement": "Kari Johnson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "kshinternational.ipo@in.mpms.mufg.com",
+    "replacement": "gregoryrubio@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "EVEREST FAMILY",
+    "replacement": "Johnston-Hines Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "DHAULAGIRI",
+    "replacement": "Rebecca Mckinney",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "GIRIJA",
+    "replacement": "Adam Russell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "RAKHI",
+    "replacement": "Ryan Wilson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "HEGDE",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "ROHIT   KUSHAL",
+    "replacement": "Maria Moore",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "HEGDE",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "KUSHAL",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "RAJESH",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "HEGDE",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "PUSHPA   KUSHAL",
+    "replacement": "Dorothy Thornton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "SUBBAYYA",
+    "replacement": "John Kennedy",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "KUSHAL",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HINDI NATIONAL DAILY NEWSPAPER",
+    "replacement": "Arnold-Reyes Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Self Certified Syndicate Banks",
+    "replacement": "Romero, Suarez and Shields Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Life Insurance Companies",
+    "replacement": "Barton-Dickerson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder",
+    "replacement": "Sherri Edwards",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Stock",
+    "replacement": "Villa-Romero Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "customerservice.mb@nuvama.com",
+    "replacement": "erik16@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh.ipo@nuvama.com",
+    "replacement": "vpham@example.org",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Nuvama   Wealth   Management  Limited 801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla   Complex, Bandra East, Mumbai 400051",
+    "replacement": "499 Grimes Mission Suite 558\nGibsonmouth, VI 25228",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kishan   Rastogi",
+    "replacement": "Mrs. Janet Chase",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "customercare@icicisecurities.com",
+    "replacement": "jeffreykeller@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "ksh@icicisecurities.com",
+    "replacement": "joshua14@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "ICICI   Securities   Limited ICICI   Venture   House,   Appasaheb   Marathe   Marg,   Prabhadevi,   Mumbai   400025",
+    "replacement": "766 Tyler Camp Apt. 895\nPort Meganville, NC 60391",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shanti   Gopalkrishnan",
+    "replacement": "Charles Pitts",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "kshinternational.ipo@in.mpms.mufg.com",
+    "replacement": "gregoryrubio@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "kshinternational.ipo@in.mpms.mufg.com",
+    "replacement": "gregoryrubio@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "MUFG Intime   India   Private   Limited (Formerly   Link   Intime   India   Private   Limited) C-101,   Embassy   247,   1 st   Floor,   L   B   S   Marg,   Vikhroli   (West),   Mumbai   400083",
+    "replacement": "Unit 1745 Box 9615\nDPO AP 70443",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH International Limited",
+    "replacement": "Walsh LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Pandit   LLP",
+    "replacement": "Callahan and Sons Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "CARE   Analytics   and Advisory Private",
+    "replacement": "Finley-Sims Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Advisory   Private   Limited",
+    "replacement": "Aguirre-Lee Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Analytics   and   ",
+    "replacement": "Brennan-Johnson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sarthak Malvadkar",
+    "replacement": "Mrs. Jennifer Morgan",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "The corporate office of our company located at   201, Tower 2, Montreal Business Centre, Off   Pallod Farms, Baner, Pune  \u2013  411 045",
+    "replacement": "16117 Heather Burgs Apt. 504\nNicholasberg, IA 70122",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo   Industrial   Park   VI   Private  Limited",
+    "replacement": "Knight-Sparks Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "ESOP",
+    "replacement": "Bob Pitts",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Infra   Park   IV   Private   Limited",
+    "replacement": "Vega, Jimenez and Aguilar Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Private Limited",
+    "replacement": "Murray LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo   Industrial   Park   ",
+    "replacement": "Scott-Smith Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo   Industrial   Park   ",
+    "replacement": "Scott-Smith Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park IX Private Limited",
+    "replacement": "Santana-Byrd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park VIII Private Limited",
+    "replacement": "Jones LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park VI Private Limited",
+    "replacement": "Bush Inc Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park V Private Limited",
+    "replacement": "Jones Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park IV Private Limited",
+    "replacement": "Hensley, Powell and David Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park III Private Limited",
+    "replacement": "Sanchez, Wheeler and Harvey Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park II Private",
+    "replacement": "Evans, Hayden and Vaughn Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Industrial Park I Private Limited",
+    "replacement": "Donovan-Harris Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal   Motors   and   Electricals   Private Limited",
+    "replacement": "Bruce-Gonzalez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Integrated   Logistics   Private",
+    "replacement": "Castaneda-Rodriguez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Distriparks Private",
+    "replacement": "Armstrong-Andrews Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Infra   Park   ",
+    "replacement": "Suarez LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH   Infra   ",
+    "replacement": "Phillips, Spence and Barrett Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH Project Management Services Private Limited",
+    "replacement": "Smith-Grimes Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Motors Private Limited",
+    "replacement": "Turner, Riggs and Roman Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "The   independent   chartered   engineer   appointed   ",
+    "replacement": "Beltran, Lozano and Mcgee Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Advisory Private   Limited",
+    "replacement": "Parsons-Hall Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "The   IPO   ",
+    "replacement": "Robinson-Lee Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Kushal",
+    "replacement": "Perry Saunders",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nomination \t and \t Remuneration Committee",
+    "replacement": "Massey, Fuller and Berger Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Industrial   Park VI Private Limited",
+    "replacement": "Williams, Kramer and Johnson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Broad Family",
+    "replacement": "Oconnor-Davis Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh   Kushal Hegde",
+    "replacement": "Paul Thompson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Pushpa   Kushal Hegde",
+    "replacement": "Joshua Mata",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal Subbayya",
+    "replacement": "Shaw, Nelson and Martin Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling  Shareholders",
+    "replacement": "Terry Coffey",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit",
+    "replacement": "Matthew Morales DDS",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kanchenjunga Family Trust",
+    "replacement": "Francis-Morgan Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Annapurna Family Trust",
+    "replacement": "Mcdonald Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh   Kushal",
+    "replacement": "Vincent Dalton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rakhi",
+    "replacement": "Ryan Wilson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Annapurna Family",
+    "replacement": "Craig, Sanders and Singleton Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rakhi Girija Shetty",
+    "replacement": "Mark Diaz",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "The   registered   office   of   our   Company   located   at 11/3,   11/4 and   11/5, Village   Birdewadi, Chakan Taluka-Khed, Pune  \u2013  410 501",
+    "replacement": "0481 Richardson Summit\nBrendastad, CT 88953",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit",
+    "replacement": "Matthew Morales DDS",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sangeeta",
+    "replacement": "Alexander Henson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Our   manufacturing   facility   located   at   Plot   No.   J-25,   Taloja   Industrial   Area,   Village   Padghe,   Taluka Panvel, Raigad  \u2013  410 208",
+    "replacement": "174 Wilson Cape\nWest Wendyville, CT 31276",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Our manufacturing facility located at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune  \u2013  410 501",
+    "replacement": "7586 Nicole Shoal\nPort Tracychester, KY 04789",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Our   manufacturing   facility   located   at   Plot   No.   5,   Chakan   Industrial   Area,   Phase   II,   Village Khalumbre, Taluka Khed, Pune  \u2013  410 501",
+    "replacement": "7351 Stephens Rue\nBruceview, ID 16512",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Stock  ",
+    "replacement": "Villa-Romero Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Allottee",
+    "replacement": "Samantha Davis",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "domestic   Mutual   ",
+    "replacement": "May PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "All   Bidders   except   Anchor",
+    "replacement": "Williams LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Sponsor Banks",
+    "replacement": "Zhang PLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Public   Offer Account Bank",
+    "replacement": "Jones PLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Refund Bank",
+    "replacement": "Willis and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Escrow   ",
+    "replacement": "Schroeder-Kramer Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "all   editions",
+    "replacement": "Smith, Garrison and Thomas Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Financial Express",
+    "replacement": "Brown, Choi and Garcia Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Intermediaries",
+    "replacement": "Fernandez and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Anchor Investors",
+    "replacement": "Guerrero Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Intermediaries",
+    "replacement": "Fernandez and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Anchor Investors",
+    "replacement": "Guerrero Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Pune edition   ",
+    "replacement": "Smith and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Anchor Investors",
+    "replacement": "Garrett LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Securities Limited",
+    "replacement": "Morris, Thompson and Williams Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nuvama   Wealth   Management   Limited",
+    "replacement": "Doyle LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the   Collecting   Depository   Participants",
+    "replacement": "Fisher, Wilson and Brown Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Designated Stock Exchange",
+    "replacement": "Davis Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Anchor Investors",
+    "replacement": "Garrett LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Escrow Collection Bank",
+    "replacement": "Strickland-Palmer Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Escrow   Collection  Bank",
+    "replacement": "Hayes and Sons Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC Bank Limited",
+    "replacement": "Williams, Logan and Camacho Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI   Securities  Limited",
+    "replacement": "Turner, Schneider and Johnson Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "CARE Ratings Limited",
+    "replacement": "Novak and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the   Monitoring   ",
+    "replacement": "Boone-Simmons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "The   monitoring   agency   ",
+    "replacement": "Henry Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Monitoring Agency",
+    "replacement": "Lam LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Retail Individual Investors",
+    "replacement": "Hernandez, Martinez and Weber Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Nuvama",
+    "replacement": "Michelle James",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nuvama   Wealth   Management  Limited",
+    "replacement": "Schmidt, Chavez and Jacobs Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling  Shareholders",
+    "replacement": "Terry Coffey",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh   Kushal",
+    "replacement": "Vincent Dalton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Pushpa Kushal Hegde",
+    "replacement": "Mcguire Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal   Subbayya Hegde",
+    "replacement": "Curtis, Mack and Le Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the   Book Running Lead Managers",
+    "replacement": "Jordan and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders.   For",
+    "replacement": "Ronald Ross",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Financial express",
+    "replacement": "Brown, Choi and Garcia Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Public   Offer Account   Bank",
+    "replacement": "Davis, Simmons and Ortega Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Bank Limited",
+    "replacement": "Mckay-Mcdaniel Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Public   Offer   Account   Bank",
+    "replacement": "Orozco-Miller Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Refund   Bank",
+    "replacement": "Jones-Decker Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Refund  Bank",
+    "replacement": "Reynolds Ltd Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC Bank Limited",
+    "replacement": "Williams, Logan and Camacho Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Formerly   Link   Intime   India   Private   Limited",
+    "replacement": "Pena, Marshall and Ramos Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "MUFG   Intime   India   Private   Limited",
+    "replacement": "Pennington Group Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Self-Certified \t Syndicate \t Bank",
+    "replacement": "Watson, Anderson and Brown Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Link Intime India Private Limited",
+    "replacement": "Hoffman, Santiago and Jenkins Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "MUFG Intime India Private Limited",
+    "replacement": "Dixon Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder",
+    "replacement": "Sherri Edwards",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI Bank Limited",
+    "replacement": "Mckay-Mcdaniel Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC Bank Limited",
+    "replacement": "Williams, Logan and Camacho Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "India   Limited",
+    "replacement": "Pugh, Henderson and Moon Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Collectively,   BSE   Limited",
+    "replacement": "Schmitt PLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "into   and",
+    "replacement": "Bell-Lane Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "ICICI   Securities   Limited",
+    "replacement": "Moore Group Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Nuvama   Wealth   Management   Limited",
+    "replacement": "Doyle LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Systemically   Important   Non-Banking Financial Company/",
+    "replacement": "Boone LLC Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholders",
+    "replacement": "Melinda Cameron",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "A.Y.",
+    "replacement": "Holly Farmer",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "BSE   Limited",
+    "replacement": "Perez, Patterson and Hoffman Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Identification  Number",
+    "replacement": "Lisa Leonard",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Ministry   of   Commerce   and Industry",
+    "replacement": "Johnson, Hickman and Gallegos Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "The   Department   for   Promotion   of   Industry   and   ",
+    "replacement": "Johnson-Nelson Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the Central Government",
+    "replacement": "Dorsey-Bell Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "MCLR",
+    "replacement": "Charles Sandoval",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "National   Payments",
+    "replacement": "Thomas Ltd Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "National   Securities   Depository  Limited",
+    "replacement": "Davis PLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "India   Limited",
+    "replacement": "Pugh, Henderson and Moon Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Reserve   Bank   of  India",
+    "replacement": "Bennett Group Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "the   U.S.",
+    "replacement": "Moore-Collins Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Reserve   Bank   of  India",
+    "replacement": "Bennett Group Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Exchange   Board of   ",
+    "replacement": "Frank-Bradley Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Securities   and   ",
+    "replacement": "Ware and Sons Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Securities   and   Exchange   Board of   ",
+    "replacement": "Webster Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Exchange   Board   of   ",
+    "replacement": "Miller, Ramos and Coleman Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Securities   and   Exchange   Board of   ",
+    "replacement": "Webster Inc Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Securities and Exchange Board of India",
+    "replacement": "Ramos, Nelson and Fischer Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Megawatt",
+    "replacement": "Jeffrey Campbell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Profit After",
+    "replacement": "Watkins, Rose and Parker Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "PWIL",
+    "replacement": "William Brown",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Precision   Wires   India   Limited",
+    "replacement": "Turner and Sons Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Reserve   Bank   of  India",
+    "replacement": "Bennett Group Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "India  Limited",
+    "replacement": "Duran LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Solar   Energy",
+    "replacement": "Wilson-Jimenez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Profit After",
+    "replacement": "Watkins, Rose and Parker Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shetty",
+    "replacement": "Carl Patel",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Girija",
+    "replacement": "Adam Russell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Everest",
+    "replacement": "Justin Barnett",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Maithili",
+    "replacement": "James Harmon",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Balasubramanian",
+    "replacement": "Joe Miller",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Katyayani",
+    "replacement": "Jeffrey Sullivan",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Subbayya Hegde",
+    "replacement": "Donna Sullivan",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Hegde",
+    "replacement": "Adrienne Zimmerman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh \t Kushal Hegde",
+    "replacement": "Carolyn Meza",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit \t Kushal Hegde",
+    "replacement": "Michael Cox",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shetty",
+    "replacement": "Carl Patel",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Girija",
+    "replacement": "Adam Russell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Makalu \t Family Trust",
+    "replacement": "Richard-Sanchez Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kanchenjunga  Family Trust",
+    "replacement": "Morales, Miller and Harrell Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Maithili \t Rajesh Hegde",
+    "replacement": "Connie Maxwell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Katyayani Balasubramanian",
+    "replacement": "Mark Schmidt",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Malabar   India   Fund  Limited",
+    "replacement": "Bullock LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rupal K.",
+    "replacement": "Tyler Brewer",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Bhargava",
+    "replacement": "Brian Scott",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ajay",
+    "replacement": "Christian Malone",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Salil",
+    "replacement": "Trevor Burton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Jabeen",
+    "replacement": "Justin Riley",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Menon",
+    "replacement": "Sonia Day",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Ajay",
+    "replacement": "Christian Malone",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Sunil \t Nagayya Shetty",
+    "replacement": "Mrs. Tricia Stewart",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal Electricals",
+    "replacement": "Jones-Ramos Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Waterloo Motors",
+    "replacement": "Hogan-Vargas Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "KSH Distriparks Private Limited",
+    "replacement": "Romero-Collins Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Parijat Foundation",
+    "replacement": "Johnson-Wood Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Private Limited",
+    "replacement": "Murray LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shetty",
+    "replacement": "Carl Patel",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Girija",
+    "replacement": "Adam Russell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Everest",
+    "replacement": "Justin Barnett",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shetty",
+    "replacement": "Carl Patel",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Girija",
+    "replacement": "Adam Russell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Everest",
+    "replacement": "Justin Barnett",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Broad   Family   ",
+    "replacement": "Jones-Lin Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Maithili",
+    "replacement": "James Harmon",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Maithili",
+    "replacement": "James Harmon",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Everest",
+    "replacement": "Justin Barnett",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Gujarat",
+    "replacement": "Lisa Hunter",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Gopal BO",
+    "replacement": "Julian Conner",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "SA Shetty",
+    "replacement": "Joanna Pacheco",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Karunakar Bhandary",
+    "replacement": "Erica Alvarez",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal Hegde",
+    "replacement": "Rosario Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Kushal Hegde",
+    "replacement": "Rosario Group Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Karunakar Hegde",
+    "replacement": "Steven Cooper",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Karunakar Hegde HUF",
+    "replacement": "Kathy Thompson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Narayana B. Shetty",
+    "replacement": "Jeffrey Gonzales",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Shubhkamal Leasing and Investment Private Limited",
+    "replacement": "Bishop, Cox and Hardin Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Shubhkamal Leasing and Investment Private Limited",
+    "replacement": "Bishop, Cox and Hardin Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Kushal Hegde",
+    "replacement": "Maria Lynch",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Hegde",
+    "replacement": "Raymond Shelton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Hegde",
+    "replacement": "Mark Cook",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Hegde",
+    "replacement": "Raymond Shelton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Pushpa Hegde",
+    "replacement": "Michael Farrell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit Hegde",
+    "replacement": "Mark Cook",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh Hegde",
+    "replacement": "Raymond Shelton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal Hegde",
+    "replacement": "Adrienne Zimmerman",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Taloja",
+    "replacement": "Justin Hughes",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Taloja",
+    "replacement": "Justin Hughes",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Labour Welfare Fund",
+    "replacement": "Cummings-Douglas Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Long Term   Bank",
+    "replacement": "Marks, Cook and Aguilar Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short Term   Bank",
+    "replacement": "Rangel LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short   Term Bank",
+    "replacement": "Hale, Myers and Larson Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Long Term   Bank",
+    "replacement": "Marks, Cook and Aguilar Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short Term   Bank",
+    "replacement": "Rangel LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short   Term Bank",
+    "replacement": "Hale, Myers and Larson Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short   Term Bank",
+    "replacement": "Hale, Myers and Larson Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Long Term   Bank",
+    "replacement": "Marks, Cook and Aguilar Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short Term   Bank",
+    "replacement": "Rangel LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short Term   Bank",
+    "replacement": "Rangel LLC Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Short   Term Bank",
+    "replacement": "Hale, Myers and Larson Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling   Shareholder",
+    "replacement": "Sherri Edwards",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit",
+    "replacement": "Matthew Morales DDS",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "S.   no.   245/   104,   Pushpakamal,   Deccan   Gymkhana   Society,   lane   no. 3   Prabhat   Road,   opposite   PYC   basketball   court,   Deccan   Gymkhana, Pune  \u2013  411 004",
+    "replacement": "USNV Hansen\nFPO AP 43555",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rajesh",
+    "replacement": "Christopher Jenkins",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "12   Buena   Monte,   NCL   co-operative   housing   society,   Panchvati, Pashan, Pune  \u2013  411 008",
+    "replacement": "685 Michael Falls\nWest Stacey, NM 25667",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hegde",
+    "replacement": "Donald Shea",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kushal",
+    "replacement": "Jason Morris",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Rohit",
+    "replacement": "Matthew Morales DDS",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Pushpakamal Apartment, Flat  \u2013  1, S. no. 245/ 104, Prabhat Road Lane no. 3, Shivaji Nagar, Deccan Gymkhana, Pune  \u2013  411 004",
+    "replacement": "14188 Ebony Wells\nNew Nicholas, GA 24204",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Shetty",
+    "replacement": "Carl Patel",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Girija",
+    "replacement": "Adam Russell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Deccan Gymkhana",
+    "replacement": "Wise, Lamb and Martin Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Munot",
+    "replacement": "Jason Rhodes",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Hirachand",
+    "replacement": "Jeremy Mitchell",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Dinesh",
+    "replacement": "Joann Ferguson",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "Pratik   Bunglow,   Senapati   Bapat   Road,   behind   Sahara   Hotel, Shivajinagar, Model Colony, Pune  \u2013  411 016",
+    "replacement": "59774 Shaw Manor Apt. 392\nBrettfort, VI 49156",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Patil",
+    "replacement": "Ashley Singleton",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "602,   Gopalkrupa   Apartment,   Bhonde   colony,   Prabhat   Road, Erandawane, Pune  \u2013  411 004",
+    "replacement": "24782 Davis Forges Suite 506\nSouth Waynebury, MS 11197",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Tiwari",
+    "replacement": "Alfred Galvan",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Kumar",
+    "replacement": "Marie Moody",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "ADDRESS",
+    "original": "A-259, JK Road, Minal Residency, Huzur, Govindpura, Bhopal  \u2013  462 023",
+    "replacement": "2779 Rebecca Brook Suite 328\nRodriguezport, IA 39973",
+    "confidence": 0.8,
+    "source": "regex",
+    "rule": "address_pincode_regex"
+  },
+  {
+    "type": "PERSON",
+    "original": "Jacob",
+    "replacement": "David Fowler",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Indu",
+    "replacement": "Amy Copeland",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Nuvama",
+    "replacement": "Michelle James",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Nuvama",
+    "replacement": "Michelle James",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Monitoring Agency",
+    "replacement": "Carlson-Smith Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Nuvama",
+    "replacement": "Michelle James",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Nuvama",
+    "replacement": "Michelle James",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Nuvama",
+    "replacement": "Michelle James",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Registrar to the Issue",
+    "replacement": "Andrews, Higgins and Carter Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "PERSON",
+    "original": "Selling Shareholders",
+    "replacement": "Kimberly Dudley",
+    "confidence": 0.7,
+    "source": "regex",
+    "rule": "person_title_regex"
+  },
+  {
+    "type": "EMAIL",
+    "original": "parag.pansare@kirtanepandit.com",
+    "replacement": "aramirez@example.com",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "HDFC   Limited",
+    "replacement": "Mendez and Sons Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "House Opposite",
+    "replacement": "Butler, Beck and Miller Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "COMPANY",
+    "original": "&   Pandit",
+    "replacement": "Jones-Fox Limited",
+    "confidence": 0.85,
+    "source": "presidio",
+    "rule": "spacy_trf"
+  },
+  {
+    "type": "EMAIL",
+    "original": "hingnetare@gmail.com",
+    "replacement": "myerstheodore@example.net",
+    "confidence": 1.0,
+    "source": "regex",
+    "rule": "email_regex"
+  },
+  {
+    "type": "COMPANY",
+    "original": "Hingne Tare & Associates",
+    "replacement": "Zavala-King Limited",
+    "confidence": 0.75,
+    "source": "regex",
+    "rule": "company_suffix_regex"
+  }
+]
