@@ -4,67 +4,46 @@
 
 This project automatically detects and redacts Personally Identifiable Information (PII) from Microsoft Word (.docx) documents while preserving the original document formatting.
 
-The tool identifies sensitive information such as names, email addresses, phone numbers, companies, and addresses, and replaces them with realistic fake values.
-
-## Features
-
-- Detects multiple types of PII
-- Redacts text while preserving document formatting
-- Uses both regex and Microsoft Presidio for detection
-- Generates consistent fake replacements
-- Produces a replacement log
-- Includes an evaluation pipeline to measure detection performance
+The tool identifies and replaces sensitive information with realistic fake values while maintaining consistency throughout the document. For example, if the same person's name appears multiple times, it is always replaced with the same fake name.
 
 ## PII Types Supported
 
-- Person Names
+The tool detects and redacts the following PII types:
+
+- Full Names
 - Email Addresses
 - Phone Numbers
 - Company Names
-- Postal Addresses
+- Physical/Mailing Addresses
+- Social Security Numbers (SSNs)
+- Credit Card Numbers
+- Dates of Birth
+- IP Addresses
 
-## Project Structure
+## Approach
 
-```
-pii-redaction-tool/
-│
-├── src/
-│   ├── detector.py
-│   ├── fake_mapper.py
-│   ├── models.py
-│   ├── presidio_recognizer.py
-│   ├── redact_docx.py
-│   ├── redactor.py
-│   └── regex_recognizers.py
-│
-├── eval/
-│   ├── evaluate.py
-│   └── ground_truth.json
-│
-├── input/
-│   └── Red Herring Prospectus.docx
-│
-├── output/
-│   ├── redacted_rhp.docx
-│   ├── replacement_log.json
-│   └── evaluation_report.json
-│
-├── tests/
-│
-├── main.py
-├── requirements.txt
-└── README.md
-```
+The project uses a hybrid approach combining regular expressions and Named Entity Recognition (NER).
 
-## Technologies Used
+Regular expressions are used to detect structured entities such as:
 
-- Python
-- Microsoft Presidio
-- spaCy
-- Transformer-based Named Entity Recognition
-- Regex
-- python-docx
-- Faker
+- Email addresses
+- Phone numbers
+- SSNs
+- Credit card numbers
+- Dates of birth
+- IP addresses
+
+Microsoft Presidio with spaCy's transformer-based NER model (`en_core_web_trf`) is used to detect:
+
+- Person names
+- Company names
+- Addresses
+
+Detected entities from both approaches are merged and overlapping detections are resolved before replacement.
+
+Each detected entity is replaced with a realistic fake value generated using the Faker library. The same original value is always replaced with the same fake value throughout the document.
+
+The final redacted document preserves the original formatting, including fonts, tables, spacing, and layout.
 
 ## Installation
 
@@ -74,7 +53,7 @@ Create a virtual environment.
 python -m venv venv
 ```
 
-Activate the environment.
+Activate it.
 
 Windows
 
@@ -82,19 +61,19 @@ Windows
 venv\Scripts\activate
 ```
 
-Install the required packages.
+Install dependencies.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Download the spaCy transformer model.
+Download the transformer model.
 
 ```bash
 python -m spacy download en_core_web_trf
 ```
 
-## Running the Project
+## Running
 
 Place the input document inside the `input` folder.
 
@@ -104,61 +83,31 @@ Run:
 python main.py
 ```
 
-The redacted document and reports will be generated inside the `output` folder.
+Generated files will be saved inside the `output` folder.
 
-## Output Files
+## Output
 
 The project generates:
 
-- redacted_rhp.docx – Redacted document
-- replacement_log.json – Original and replacement values
-- evaluation_report.json – Evaluation results
+- Redacted DOCX document
+- Replacement log
+- Evaluation report
 
-## Evaluation
+## Tradeoffs
 
-The project includes a manually annotated ground truth dataset.
+The hybrid approach provides high recall while reducing false positives.
 
-Evaluation measures:
+Structured entities such as email addresses and phone numbers are detected very accurately using regex.
 
-- Recall for each PII category
-- Overall recall
-- False positive candidates for manual review
+Addresses remain the most challenging entity because location names such as "Pune" or "Mumbai" may appear independently and should not always be treated as mailing addresses.
 
-The evaluation can be run using:
+Some organization names may occasionally be detected as PII even when they are general document terms. These cases are reported for manual review.
 
-```bash
-python eval/evaluate.py
-```
+## Technologies Used
 
-## Approach
-
-The system combines two detection methods.
-
-Regex is used for structured entities such as:
-
-- Email addresses
-- Phone numbers
-
-Microsoft Presidio with spaCy transformer models is used for:
-
-- Person names
-- Company names
-- Addresses
-
-Detected entities are merged, overlapping detections are resolved, and each entity is replaced with a consistent fake value generated using the Faker library.
-
-Finally, the updated text is written back into the Word document while preserving the original formatting.
-
-## Limitations
-
-- Address detection is more challenging than other entity types.
-- Some organization names may require manual review.
-- Evaluation is performed on an annotated subset of the document rather than the entire document.
-
-## Author
-
-Piridi Santhosh Teja
-
-National Institute of Technology Agartala
-
-Email: santhosh.piridi123@gmail.com
+- Python
+- Microsoft Presidio
+- spaCy
+- en_core_web_trf
+- Faker
+- python-docx
